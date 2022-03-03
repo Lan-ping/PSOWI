@@ -13,7 +13,7 @@ setuptools.setup(
     description="Keras Model Weight Initialization By PSO",  # 模块简介
     long_description=long_description,  # 模块详细介绍
     long_description_content_type="text/markdown",  # 模块详细介绍格式
-    url="https://github.com/Lanping-Tech/",  # 模块github地址
+    url="https://github.com/Lan-ping/PSOWI",  # 模块github地址
     packages=setuptools.find_packages(),  # 自动找到项目中导入的模块
     # 模块相关的元数据
     classifiers=[
