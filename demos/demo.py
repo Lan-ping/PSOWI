@@ -50,7 +50,7 @@ model.add(Dense(1,activation='linear'))
 model.summary()
 model.compile(optimizer='adam',loss='mse',metrics=[determin])
 
-psowi = PSOWI(model,x_train,y_train,x_test,y_test)
+psowi = PSOWI(model,(x_train,y_train),metirc_idx=1)
 model = psowi.get_optimal_model()
 
 history = model.fit(x_train,y_train,validation_data=(x_test,y_test),epochs=800,batch_size=30)

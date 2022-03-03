@@ -7,7 +7,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
  
 setuptools.setup(
     name='psowi',  # 模块名称
-    version="1.0.2",  # 当前版本
+    version="1.0.3",  # 当前版本
     author="lanping_tech",  # 作者
     author_email="lanping_tech@qq.com",  # 作者邮箱
     description="Keras Model Weight Initialization By PSO",  # 模块简介

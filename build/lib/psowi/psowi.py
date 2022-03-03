@@ -14,6 +14,9 @@ class PSOWI:
                  pop_size=100, 
                  pop_low=0, 
                  pop_up=1,
+                 w=0.8,
+                 c1=2,
+                 c2=2,
                  layer_idxes=None):
 
         # 初始化
@@ -27,6 +30,9 @@ class PSOWI:
         self.pop_size = pop_size  # 种群大小
         self.pop_low = pop_low  # 种群范围下限
         self.pop_up = pop_up  # 种群范围上限
+        self.w = w  # 惯性权重
+        self.c1 = c1  # 加速因子
+        self.c2 = c2  # 加速因子
         if layer_idxes is None:
             self.layer_idxes = [idx for idx in range(len(self.model.layers)) if self.model.layers[idx].get_weights()]
         else:
