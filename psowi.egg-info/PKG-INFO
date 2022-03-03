@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: psowi
-Version: 1.0.1
+Version: 1.0.2
 Summary: Keras Model Weight Initialization By PSO
-Home-page: https://github.com/Lan-ping/PSOWI
+Home-page: https://github.com/Lanping-Tech/PSOWI
 Author: lanping_tech
 Author-email: lanping_tech@qq.com
 License: UNKNOWN
